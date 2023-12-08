@@ -25,7 +25,7 @@
         </Border>
 
         <Label x:Name=" lblSeleccionado"
-            TextColor="Red"
+            TextColor="Black"
             FontSize="16"
             HorizontalTextAlignment="Center"
             Text=" "/>
