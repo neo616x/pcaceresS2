@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pcaceresS2.Vistas.vcalificaciones"
+             Title="vcalificaciones">
+    <VerticalStackLayout Spacing="15">
+        <Label 
+        Text="Sistema Calificaciones"
+        FontSize="24"
+        HorizontalTextAlignment="Center"/>
+        <Border Stroke=" black">
+            
+            <Picker x:Name=" pkEstudiantes" Title=" Estudiantes">
+                <Picker.Items>
+                    <x:String>Pablo Caceres</x:String>
+                    <x:String>Josselyn Tapia</x:String>
+                    <x:String>Moises Sanchez</x:String>
+                    <x:String>Abiel Aguirre</x:String>
+                </Picker.Items>
+            </Picker>
+        </Border>
+
+        <Button x:Name=" btnMostrar"
+         Text="Mostrar elemento"
+         Clicked="btnMostrar_Clicked"/>
+        
+        <Label x:Name=" lblSeleccionado"
+                 TextColor="Red"
+                 FontSize="16"
+                 HorizontalTextAlignment="Center"
+                 Text=" "/>
+       <!--<Entry x:Name=" txtDato" Placeholder="Ingrese dato" TextChanged="txtDato.TextChanged" MaxLength="2"/>-->
+
+
+        
+    </VerticalStackLayout>
+</ContentPage>

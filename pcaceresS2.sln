@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pcaceresS2", "pcaceresS2\pcaceresS2.csproj", "{EFC8442D-98D9-486C-BB60-59344C969BAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFC8442D-98D9-486C-BB60-59344C969BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC8442D-98D9-486C-BB60-59344C969BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC8442D-98D9-486C-BB60-59344C969BAE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EFC8442D-98D9-486C-BB60-59344C969BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC8442D-98D9-486C-BB60-59344C969BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC8442D-98D9-486C-BB60-59344C969BAE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {822784A0-FBE1-4B0C-A1A4-B91D5FC884B5}
+	EndGlobalSection
+EndGlobal
